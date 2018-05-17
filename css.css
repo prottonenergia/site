@@ -1,0 +1,773 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body, html {
+	background: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #333333;
+	left: 0px;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+div#pagina {
+	min-height: 100%;
+	position: relative;
+}
+
+/* Imagens */
+img#imagem {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	margin-top: 20px;
+	overflow: visible;
+	z-index: 100;
+	width: 100%;
+	display: inline-block;
+}
+
+/* Cabeçalho */
+div#header {
+	top: 0px;
+	width: 100%;
+	position: relative;
+	background: #FFFFFF;
+	margin-top: -105px;
+}
+
+div#header div#topo {
+	padding: 10px;
+	font-weight: 400;
+	color: #777777;
+	border-bottom: 1px solid #EEEFF0;
+	min-height: 20px;
+	
+}
+
+div#header div#topo div#topocontato {
+	width: 900px;
+	position: relative;
+	display: block;
+}
+
+div#header div#topo div#topoemail {
+	width: auto;
+	float: left;
+}
+
+div#header div#topo div#topoemail i {
+	float: left;
+	font-weight: 300;
+	font-size: 20px;
+	color: #8d97ad;
+}
+
+div#header div#topo div#topomedia {
+	float: right;
+	width: auto;
+}
+
+div#header div#topo div#topomedia a, a:link {
+	color: #8d97ad;
+	margin: 0px 3px;
+	font-size: 15px;
+	transition-duration: 500ms;
+	transition-property: all;
+}
+
+div#header div#topo div#topomedia a:hover {
+	color: #777777;
+}
+
+div#header div#topomenu {
+	width: 800px;
+	position: relative;
+	display: block;
+	z-index: 99999;
+	margin-top: -1px;
+	
+}
+
+div#header div#topomenu a {
+	border-top: 1px solid #EEEFF0;
+	padding: 18px 10px 0px 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0px 30px;
+	transition-duration: 500ms;
+	transition-property: all;
+	color: #777777;
+}
+
+div#header div#topomenu a:hover {
+	color: #06A88A;
+	border-top: 1px solid #06A88A;
+}
+
+div#header div#topomenu div#esq {
+	float: left;
+	width: auto;
+}
+
+div#header div#topomenu div#dir {
+	float: right;
+	width: auto;
+}
+
+div#logo {
+	display: inline-block;
+	background: #FFFFFF;
+	top: -10px;
+	width: 250px;
+	height: 85px;
+	z-index: 1;
+	position: relative;
+	overflow: visible;
+	padding-top: 30px;
+}
+
+div#logo div#protton {
+	background: url('https://static.tumblr.com/xzqqn0j/2Jtp7rngr/logosite.png');
+	width: 166px;
+	height: 52px;
+	display: inline-block;
+}
+
+
+/* Sobre */
+div#sobre {
+	display: inline-block;
+	width: 800px;
+	position: relative;
+	margin-top: 10px;
+}
+
+div#sobre div#sobrefundo {
+	display: inline-block;
+	width: 150px;
+	height: 167px;
+	position: relative;
+	z-index: 1;
+	float: right;
+	text-align: center;
+	margin-top: 55px;
+}
+
+div#sobre div#sobrefundo div#sobretitulo {
+	font-weight: 600;
+	font-size: 34px;
+	text-transform: lowercase;
+	font-style: italic;
+	color: #686868;
+	font-family: 'Raleway', sans-serif;
+}
+
+div#sobre div#sobrefundo div#sobresubtit {
+	font-weight: 500;
+	font-size: 13px;
+	font-style: italic;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #EEEFF0;
+	padding-bottom: 10px;
+	width: 150px;
+	display: inline-block;
+}
+
+div#sobre div#sobrefundo div#sobrelinha {
+	width: 1px;
+	display: inline-block;
+	height: 60px;
+	background-color: #EEEFF0;
+	margin-bottom: -10px;
+	transition-duration: 800ms;
+	transition-property: all;
+}
+
+div#sobre div#sobrefundo:hover div#sobrelinha {
+	height: 120px;
+}
+
+div#sobre div#sobrefundo div#sobrextr {
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+	width: 13px;
+	height: 13px;
+	background: #EEEFF0;
+	display: inline-block;
+	margin-top: -10px;
+}
+
+div#sobre div#sobredesc {
+	float: left;
+	text-align: justify;
+	width: 600px;
+	line-height: 26px;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #777777;
+	display: inline-block;
+	height: 242px;
+	background-image: url('https://static.tumblr.com/xzqqn0j/uKcp89w0m/sobredescfundo.png');
+	background-repeat: no-repeat;
+	background-positon: center center;
+	padding-top: 40px;
+}
+
+
+/* Vantagens */
+div#vantagens {
+	padding: 50px 0px;
+	display: inline-block;
+}
+
+div#vantagens1 {
+	width: 900px;
+	display: inline-block;
+	border-top: 1px solid #EEEFF0;
+	border-bottom: 1px solid #EEEFF0;
+	padding: 25px 0px 55px 0px;
+}
+
+div#vantagens1 div#titulo {
+	font-weight: 600;
+	font-size: 25px;
+	text-transform: lowercase;
+	color: #686868;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	text-align: center;
+	width: 200px;
+	padding: 0px 20px;
+	position: absolute;
+	background: #ffffff;
+	margin-top: -43px;
+	margin-left: 45px;
+	letter-spacing: 3px;
+	line-height: auto;
+}
+
+div#vantagens1 div#vsubt {
+	font-weight: 500;
+	font-size: 13px;
+	font-style: italic;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+	margin-top: -10px;
+	display: inline-block;
+	width: 720px;
+	text-align: justify;
+	
+}
+
+div#vantagens1 div#caixa1 {
+	float: left;
+	width: 260px;
+	display: inline-block;
+	text-align: center;
+}
+
+div#vantagens1 div#caixa1 div#texto1 div#icon1 {
+	font-size: 33px;
+	color: #F89A1C;
+	text-align: center;
+	padding: 10px 0px;;
+}
+
+div#vantagens1 div#caixa1 div#texto1 {
+	display: inline-block;
+	letter-spacing: 1px;
+	line-height: 22px;
+	font-size: 11px;
+	color: #777777;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+div#vantagens1 div#caixa1 div#texto1 div#subtitulo1 {
+	font-size: 16px;
+	font-weight: 500;
+	color: #F89A1C;
+	display: block;
+	line-height: 25px;
+	margin-bottom: 5px;
+}
+
+div#vantagens1 div#caixa2 {
+	float: left;
+	width: 260px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 60px;
+}
+
+div#vantagens1 div#caixa2 div#texto2 div#icon2 {
+	font-size: 33px;
+	color: #06A88A;
+	text-align: center;
+	padding: 10px 0px;;
+}
+
+div#vantagens1 div#caixa2 div#texto2 {
+	display: inline-block;
+	letter-spacing: 1px;
+	line-height: 22px;
+	font-size: 11px;
+	color: #777777;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+div#vantagens1 div#caixa2 div#texto2 div#subtitulo2 {
+	font-size: 16px;
+	font-weight: 500;
+	color: #06A88A;
+	display: block;
+	line-height: 25px;
+	margin-bottom: 5px;
+}
+
+/* Mercado */
+div#mercado {
+	width: 900px;
+	display: inline-block;
+	margin-top: 50px;
+	border-top: 1px solid #EEEFF0;
+	padding-bottom: 60px;
+}
+
+div#mercado div#merctitulo {
+	font-weight: 600;
+	font-size: 34px;
+	text-transform: lowercase;
+	font-style: italic;
+	color: #686868;
+	font-family: 'Raleway', sans-serif;
+	line-height: 30px;
+}
+
+div#mercado div#merctitulo em {
+	font-size: 20px;
+	margin-top: -20px;
+	transition-duration: 500ms;
+	transition-property: all;
+}
+
+div#mercado:hover em {
+	color: #F89A1C;
+}
+
+div#mercado div#merclinhavert {
+	width: 1px;
+	height: 40px;
+	border-left: 1px dashed #AAAAAA;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+div#mercado div#merclivre {
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: lowercase;
+	font-style: italic;
+	color: #06A88A;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 3px;
+	line-height: 20px;
+}
+
+div#mercado div#merclivresub {
+	font-weight: 500;
+	font-size: 13px;
+	font-style: italic;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	color: #686868;
+	margin-top: 0px;
+	line-height: 20px;
+}
+
+div#mercado div#merclivrecont {
+	width: 660px;
+	display: inline-block;
+}
+
+div#mercado div#merclivrecont div#merclivrelinhav {
+	width: 1px;
+	height: 45px;
+	border-left: 1px dashed #AAAAAA;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+div#mercado div#merclivrecont div#merclivrelinhah {
+	width: 640px;
+	height: 20px;
+	border-top: 1px dashed #AAAAAA;
+	border-right: 1px dashed #AAAAAA;
+	border-left: 1px dashed #AAAAAA;
+	display: block;
+	margin-top: -10px;
+}
+
+div#mercado div#merclivrecont div#merclivretxt1 {
+	padding: 15px;
+	line-height: 26px;
+	font-size: 14px;
+	color: #777777;
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	text-align: justify;
+	width: 260px;
+	float: left;
+	margin: -15px 0px;
+}
+
+div#mercado div#merclivrecont div#merclivretxt1 div#mlicon1 {
+	font-size: 24px;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	margin-top: -5px;
+	margin-bottom: 15px;
+}
+
+div#mercado div#merclivrecont div#merclivretxt1 div#mlicon1 i {
+	width: auto;
+	height: auto;
+	padding: 12px;
+	font-size: 24px;
+	text-align: center;
+	display: inline;
+	margin-top: -5px;
+	transition-duration: 800ms;
+	transition-property: all;
+
+}
+
+div#mercado div#merclivrecont div#merclivretxt1:hover i {
+	color: #22DFBC;
+}
+
+div#mercado div#merclivrecont div#merclivretxt1 div#mltit {
+	text-align: justify;
+	display: block;
+	font-weight: 400;
+	font-size: 13px;
+	color: #777777;
+	line-height: 25px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+div#mercado div#merclivrecont div#merclivretxt2 {
+	padding: 15px;
+	line-height: 26px;
+	font-size: 14px;
+	color: #777777;
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	text-align: justify;
+	width: 260px;
+	float: right;
+	margin: -15px 0px;
+}
+
+div#mercado div#merclivrecont div#merclivretxt2 div#mlicon1 {
+	font-size: 24px;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	margin-top: -5px;
+	margin-bottom: 15px;
+}
+
+div#mercado div#merclivrecont div#merclivretxt2 div#mlicon1 i {
+	width: auto;
+	height: auto;
+	padding: 12px;
+	font-size: 24px;
+	text-align: center;
+	display: inline;
+	margin-top: -5px;
+	transition-duration: 800ms;
+	transition-property: all;
+
+}
+
+div#mercado div#merclivrecont div#merclivretxt2:hover i {
+	color: #22DFBC;
+}
+
+div#mercado div#merclivrecont div#merclivretxt2 div#mltit {
+	text-align: justify;
+	display: block;
+	font-weight: 400;
+	font-size: 13px;
+	color: #777777;
+	line-height: 25px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+div#mercado div#mllinha {
+	width: 1px;
+	border-left: 1px solid #EEEFF0;
+	margin: 0px 39px;
+	float: left;
+	height: 215px;
+}
+
+/* Contato */
+div#contato {
+	width: 900px;
+	overflow-x: hidden;
+}
+
+div#contato div#ctctitulo {
+	font-weight: 600;
+	font-size: 34px;
+	text-transform: lowercase;
+	font-style: italic;
+	color: #686868;
+	font-family: 'Raleway', sans-serif;
+	line-height: 30px;
+}
+
+div#contato div#ctcinf {
+	width: 900px;
+	margin-top: 15px;
+	font-weight: 400;
+	font-size: 15px;
+	text-transform: lowercase;
+	font-style: italic;
+	line-height: 40px;
+	color: #777777;
+}
+
+div#contato div#ctcinf em {
+	font-style: none;
+	margin-right: 6px;
+	font-size: 13px;
+}
+
+div#contato div#ctcmail {
+	width: 430px;
+	float: left;
+	text-align: right;
+	padding-right: 20px;
+	border-right: 1px solid #EEEFF0;
+}
+
+div#contato div#ctcfone {
+	width: 430px;
+	float: right;
+	text-align: left;
+	margin-left: 10px;
+}
+
+div#contato div#ctcform {
+	width: 900px;
+	display: inline-block;
+	overflow-x: hidden;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+div#contato div#ctcmsg {
+	width: 600px;
+	display: inline-block;
+	font-weight: 400;
+	font-size: 14px;
+	font-style: italic;
+	color: #686868;
+	font-family: 'Raleway', sans-serif;
+	line-height: 25px;
+	position: relative;
+	margin-top: 10px;
+}
+
+div#contato div#infos {
+	width: 600px;
+}
+
+div#contato div#infos div#nome {
+	width: 300px;
+	display: inline-block;
+	float: left;
+}
+
+div#contato div#infos div#email {
+	width: 300px;
+	display: inline-block;
+	float: left;
+}
+
+div#contato div#categ {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 11px;
+	letter-spacing: 2px;
+	float: left;
+	margin-right: 20px;
+	width: 250px;
+	text-align: left;
+	color: #777777;
+}
+
+div#contato div#fbotoes {
+	float: right;
+	width: 186px;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+div#contato div#fbotoes input {
+	width: auto;
+	margin: 3px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 11px;
+	letter-spacing: 2px;
+}
+
+div#contato form {
+	width: 900px;
+}
+
+div#contato form input, form textarea {
+	padding: 10px;
+	background: #F4F4F4;
+	border: 1px solid #D4D4D4;
+	float: left;
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 1px;
+	float: left;
+	color: #777777;
+}
+
+div#contato form input#fnome {
+	width: 250px;
+	float: left;
+	display: inline-block;
+}
+
+div#contato form input#fmail {
+	width: 250px;
+	float: left;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+div#contato form textarea.fmsg {
+	width: 550px;
+	height: 100px;
+	float: left;
+	display: inline-block;
+	line-bre
+}
+
+
+/* Footer */
+div#footer {
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	min-height: 10px;
+	display: block;
+	background: #F4F4F4;
+	right: 0;
+	left: 0;
+	color: #777777;
+	font-size: 10px;
+	text-align: center;
+	padding: 13px 13px 13px 0px;
+	overflow-x: hidden;
+	font-weight: 600;
+	text-align: right;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1px;
+	margin-top: 50px;
+}
+
+div#footer div#ftmsg {
+	float: right;
+	margin-right: 15px;
+}
+
+
+/* Slider */
+.container {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 20px;
+	display: inline-block;
+}
+.timer {
+  height: 3px;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #06A88A;
+  z-index: 10;
+}
+.slideshow {
+  position: relative;
+  height: 100%;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  background: #bbb;
+  color:#ddd;
+  text-align: center;
+  line-height: 320px;
+  font-size: 640px;
+  }
+
+ .slide { display: none;}
+
+div#slide1 {
+	font-size: 34px;
+	background: url('https://static.tumblr.com/xzqqn0j/sCVp7prvf/001.png');
+	background-size: 100% auto;
+	background-position: center center;
+}
+
+div#slide2 {
+	background: url('https://ecivilufes.files.wordpress.com/2011/05/itaipu-16.jpg');
+	background-size: 100% auto;
+	background-position: center center;
+}
+
+div#slide3 {
+	background: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/EdHcJi7Pe/camera-flight-over-biogas-plant-near-pig-farm-in-rapeseed-fields-renewable-energy-from-biomass-modern-agriculture-and-environment-in-european-union-aerial-view-to-industrial-landscapebiogas-99_hfxgkkell_thumbnail-full01.png');
+	background-size: 100% auto;
+	background-position: center center;
+}
